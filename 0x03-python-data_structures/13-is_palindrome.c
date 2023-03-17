@@ -1,3 +1,4 @@
+:wq
 /*
  * File: 13-is_palindrome.c
  * Auth: Chinweokwu Gift Chiedozie
@@ -37,6 +38,7 @@ listint_t *reverse_listint(listint_t **head)
  * Return: If the linked list is not a palindrome - 0.
  *         If the linked list is a palindrome - 1.
  */
+
 int is_palindrome(listint_t **head)
 {
 	listint_t *tmp, *rev, *mid;
