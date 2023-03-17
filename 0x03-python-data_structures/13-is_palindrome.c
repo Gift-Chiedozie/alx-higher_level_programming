@@ -1,4 +1,3 @@
-:wq
 /*
  * File: 13-is_palindrome.c
  * Auth: Chinweokwu Gift Chiedozie
