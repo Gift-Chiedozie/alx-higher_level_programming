@@ -1,6 +1,10 @@
--- Lists the number of records with the same score in the table second_table.
--- Records are ordered by descending count.
-SELECT `score`, COUNT(*) AS `number`
-FROM `second_table`
-GROUP BY `score`
-ORDER BY `number` DESC;
+-- List all records of 'second_table' of db 'hbtn_0c_0'
+-- Don't list rows without a 'name' value
+-- Results should display score and name
+-- Records should be listed descending score
+-- db name will be passed as arg to mysql cmd
+-- Not allowed to use JOIN or UNION
+SELECT score, name
+FROM second_table
+HAVING name IS NOT NULL
+ORDER BY score DESC;
